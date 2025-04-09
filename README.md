@@ -8,10 +8,10 @@
 
  - ## Os primeiros passos.
    
-   ### ➜ ## Criar o projeto Java.
+### ➜ ## Criar o projeto Java.
          O Projeto pode ser criado na sua IDE favorita.
    
-   ### ➜  Incluir as dependecias abaixo.
+### ➜  Incluir as dependecias abaixo.
    
                  		<!-- SPRING BOOT DEVTOOLS -->
                  		<dependency>
@@ -50,15 +50,16 @@
                  			<optional>true</optional>
                  		</dependency>
 
-    ### ➜ Ter o docker desktop instalado na maquina.
-          Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
+### ➜ Ter o docker desktop instalado na maquina.
+    Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
 
-    ### ➜ Observação.
-         1 - Para executar o seu projeto o docker desktop deve esta sendo execuatdo em sua maquina.
-              Caso contrario vai da erro.
-         2 - Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
-             Quais as imagens ira baixa.
-                 Na nossa dependencia do projeto temos o drive do mysql logo o docker vai fazer um pull do mysql e subir na sua maquina.
+### ➜ Observação.
+    1 - Para executar o seu projeto o docker desktop deve esta sendo execuatdo em sua maquina.
+        Caso contrario vai da erro.
+         
+    2 - Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
+        Quais as imagens ira baixa.
+        Na nossa dependencia do projeto temos o drive do mysql logo o docker vai fazer um pull do mysql e subir na sua maquina.
    
 
    
