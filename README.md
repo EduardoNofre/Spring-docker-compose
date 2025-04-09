@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="https://github.com/EduardoNofre/padrao-commit-gitHub/blob/main/hq720.jpg?raw=true" alt="Sublime's custom image"/>  
+  <img src="https://github.com/EduardoNofre/Spring-docker-compose/blob/main/hq720.jpg" alt="Sublime's custom image"/>  
 </p>
 
  <h1 align="center">
