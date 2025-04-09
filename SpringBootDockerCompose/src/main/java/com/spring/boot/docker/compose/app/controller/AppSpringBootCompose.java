@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
-@RequestMapping("/estudo")
+@RequestMapping("/estudos")
 @Order
 @Tag(name = "estudo", description = "JavaController")
 public class AppSpringBootCompose {
