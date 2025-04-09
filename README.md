@@ -96,10 +96,10 @@
                 		</dependency>
    
 Exemplo em javaFaker:
+public class UsuarioService {
+   		private final Faker faker = new Faker();
 
-   private final Faker faker = new Faker();
-
-   public void criarUsuarios() {
+   		public void criarUsuarios() {
 
 		for (int i = 0; i <= 10; i++) {
 
@@ -108,6 +108,7 @@ Exemplo em javaFaker:
 			persiste.setIdade(LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(faker.date().birthday())));
 			usuarioRepository.save(persiste);
 		}
+  	    }
 	}
  Faker documentação:
  https://www.baeldung.com/java-faker
