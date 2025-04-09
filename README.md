@@ -50,6 +50,13 @@
                  			<optional>true</optional>
                  		</dependency>
 
+                   		<!-- javafaker -->
+                		<dependency>
+                			<groupId>com.github.javafaker</groupId>
+                			<artifactId>javafaker</artifactId>
+                			<version>0.15</version>
+                		</dependency>
+
 ### ➜ Ter o docker desktop instalado na maquina.
    Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
 
