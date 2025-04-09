@@ -78,6 +78,36 @@
              CONTAINER ID   IMAGE          COMMAND                  CREATED             STATUS             PORTS                                NAMES
              c2421b2f576f   mysql:latest   "docker-entrypoint.sâ€¦"   About an hour ago   Up About an hour   33060/tcp, 0.0.0.0:53837->3306/tcp   springbootdockercompose-mysql-1
    
+### ➜ Agora na aplicação no arquivo properties vamos inserir seguinte proriedade e valor.
+             # Dados do banco não precisa de usuario e senha do  banco.
+             spring.jpa.hibernate.ddl-auto=update
 
+### ➜ Agora é seo desenvolver a aplicação.
+ - post, get. put, post ....
+
+### ➜ explicando a dependecia javafaker.
+  - Esse depencia e idela para gerar dados.
+    
+               		<!-- javafaker -->
+                		<dependency>
+                			<groupId>com.github.javafaker</groupId>
+                			<artifactId>javafaker</artifactId>
+                			<version>0.15</version>
+                		</dependency>
    
-   
+Exemplo em javaFaker:
+
+   private final Faker faker = new Faker();
+
+   public void criarUsuarios() {
+
+		for (int i = 0; i <= 10; i++) {
+
+			Usuario persiste = new Usuario();
+			persiste.setNome(faker.gameOfThrones().character());
+			persiste.setIdade(LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(faker.date().birthday())));
+			usuarioRepository.save(persiste);
+		}
+	}
+ Faker documentação:
+ https://www.baeldung.com/java-faker
