@@ -51,7 +51,7 @@
                  		</dependency>
 
 ### ➜ Ter o docker desktop instalado na maquina.
-    Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
+   Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
 
 ### ➜ Observação.
 
