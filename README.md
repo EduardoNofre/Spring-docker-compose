@@ -96,19 +96,21 @@
                 		</dependency>
    
 Exemplo em javaFaker:
-public class UsuarioService {
-   		private final Faker faker = new Faker();
 
-   		public void criarUsuarios() {
+		public class UsuarioService {
+   			private final Faker faker = new Faker();
 
-		for (int i = 0; i <= 10; i++) {
+   			public void criarUsuarios() {
 
-			Usuario persiste = new Usuario();
-			persiste.setNome(faker.gameOfThrones().character());
-			persiste.setIdade(LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(faker.date().birthday())));
-			usuarioRepository.save(persiste);
-		}
-  	    }
+			for (int i = 0; i <= 10; i++) {
+
+				Usuario persiste = new Usuario();
+				persiste.setNome(faker.gameOfThrones().character());
+				persiste.setIdade(LocalDate.parse(new SimpleDateFormat("yyyy-MM-dd").format(faker.date().birthday())));
+				usuarioRepository.save(persiste);
+			}
+  	    	}
 	}
+ 
  Faker documentação:
  https://www.baeldung.com/java-faker
