@@ -8,10 +8,11 @@
 
  - ## Os primeiros passos.
    
-    ➜ ## Criar o projeto Java.
-         O Porjeto pode ser criado na sua IDE favorita.
+   ### ➜ ## Criar o projeto Java.
+         O Projeto pode ser criado na sua IDE favorita.
    
-    ➜ ## Incluir as dependecias abaixo.
+   ### ➜  Incluir as dependecias abaixo.
+   
                  		<!-- SPRING BOOT DEVTOOLS -->
                  		<dependency>
                  			<groupId>org.springframework.boot</groupId>
