@@ -3,7 +3,7 @@
 </p>
 
  <h1 align="center">
-         Aprenda a utilizar o Spring DevTools e o Spring Docker Compose na prática!
+         Aprenda a utilizar Spring Docker Compose na prática!
  </h1>
 
  - ## Os primeiros passos.
