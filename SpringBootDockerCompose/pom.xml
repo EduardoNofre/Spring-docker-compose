@@ -62,21 +62,22 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<!-- openapi ui -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.8.5</version>
 		</dependency>
-	</dependencies>
-
-	<!-- project lombok -->
+		
+			<!-- project lombok -->
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>
 		<optional>true</optional>
 	</dependency>
+
+	
+	</dependencies>
 
 	<build>
 		<plugins>
@@ -86,5 +87,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
