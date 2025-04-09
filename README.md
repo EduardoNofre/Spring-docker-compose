@@ -112,5 +112,5 @@ Exemplo em javaFaker:
   	    	}
 	}
  
- Faker documentação:
- https://www.baeldung.com/java-faker
+ Faker documentação:<br>
+ https://www.baeldung.com/java-faker<br>
