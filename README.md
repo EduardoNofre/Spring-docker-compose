@@ -63,10 +63,11 @@
     Imagem: MYSQL.<br>
     Porque imagem do MYSQL?<br>
      Na nossa dependencia do projeto temos o drive do MYSQL logo o docker vai fazer um pull do mysql e subir na sua maquina.<br>
-### ➜ Como verificar se a imagem do MYSQL esta sendo execuata?
- 1 - abra um terminal qualquer em sua maquina e execute o comando 'docker ps'
-    Saida:
-                 C:\java-estudos-2025\Spring-docker-compose>docker ps
+### ➜ Como verificar se a imagem do MYSQL esta sendo execuata?.<br>
+ 1 - abra um terminal qualquer em sua maquina e execute o comando 'docker ps'.<br>
+    Saida:.<br>
+    
+             C:\java-estudos-2025\Spring-docker-compose>docker ps
              CONTAINER ID   IMAGE          COMMAND                  CREATED             STATUS             PORTS                                NAMES
              c2421b2f576f   mysql:latest   "docker-entrypoint.sâ€¦"   About an hour ago   Up About an hour   33060/tcp, 0.0.0.0:53837->3306/tcp   springbootdockercompose-mysql-1
    
