@@ -58,9 +58,12 @@
 1 - Para executar o seu projeto o docker desktop deve esta sendo execuatdo em sua maquina.
     Caso contrario vai da erro.
          
-2 - Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
-    Quais as imagens ira baixa.
-    Na nossa dependencia do projeto temos o drive do mysql logo o docker vai fazer um pull do mysql e subir na sua maquina.
+2 - Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.<br>
+    Quais as imagens ira baixa.<br>
+    Imagem: MYSQL.<br>
+    Porque imagem do MYSQL?<br>
+     Na nossa dependencia do projeto temos o drive do MYSQL logo o docker vai fazer um pull do mysql e subir na sua maquina.<br>
+
    
 
    
