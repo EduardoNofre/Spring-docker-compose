@@ -7,7 +7,10 @@
  </h1>
 
  - ## Os primeiros passos.
-   
+
+### ➜ Introudção.
+Aprenda em pouco passos como ter um ambiente para desenvolvimento para estudo.
+
 ### ➜ ## Criar o projeto Java.
          O Projeto pode ser criado na sua IDE favorita.
    
