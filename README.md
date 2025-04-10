@@ -11,7 +11,7 @@
 ### ➜ Introudção.
 Aprenda em poucos passos como ter um ambiente para desenvolvimento para estudo.
 
-### ➜ ## Criar o projeto Java.
+### ➜ Criar o projeto Java.
          O Projeto pode ser criado na sua IDE favorita.
    
 ### ➜  Incluir as dependecias abaixo.
