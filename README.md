@@ -7,8 +7,11 @@
  </h1>
 
  - ## Os primeiros passos.
-   
-### ➜ ## Criar o projeto Java.
+
+### ➜ Introudção.
+Aprenda em poucos passos como ter um ambiente para desenvolvimento para estudo.
+
+### ➜ Criar o projeto Java.
          O Projeto pode ser criado na sua IDE favorita.
    
 ### ➜  Incluir as dependecias abaixo.
@@ -58,11 +61,11 @@
                 		</dependency>
 
 ### ➜ Ter o docker desktop instalado na maquina.
-   Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.o e instalar.
+   Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.O e instalar.
 
 ### ➜ Observação.
 
-1 - Para executar o seu projeto o docker desktop deve esta sendo execuatdo em sua maquina.
+1 - Para executar o seu projeto, o docker desktop deve esta sendo execuatdo em sua maquina.
     Caso contrario vai da erro.
          
 2 - Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.<br>
@@ -70,6 +73,7 @@
     Imagem: MYSQL.<br>
     Porque imagem do MYSQL?<br>
      Na nossa dependencia do projeto temos o drive do MYSQL logo o docker vai fazer um pull do mysql e subir na sua maquina.<br>
+     
 ### ➜ Como verificar se a imagem do MYSQL esta sendo execuata?.<br>
  1 - abra um terminal qualquer em sua maquina e execute o comando 'docker ps'.<br>
     Saida:.<br>
@@ -82,11 +86,11 @@
              # Dados do banco não precisa de usuario e senha do  banco.
              spring.jpa.hibernate.ddl-auto=update
 
-### ➜ Agora é seo desenvolver a aplicação.
+### ➜ Agora é só desenvolver a aplicação.
  - post, get. put, post ....
 
 ### ➜ explicando a dependecia javafaker.
-  - Esse depencia e idela para gerar dados.
+  - Esse depencia é ideal para gerar dados.
     
                		<!-- javafaker -->
                 		<dependency>
