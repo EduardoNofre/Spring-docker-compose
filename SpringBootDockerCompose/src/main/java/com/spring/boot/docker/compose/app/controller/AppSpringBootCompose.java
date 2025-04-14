@@ -51,7 +51,7 @@ public class AppSpringBootCompose {
 	
 	@Operation(summary = "Usuarios", description = "Inserir usuarios")
 	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "Sucesso", content = {
-			@Content(mediaType = "application/json", array = @ArraySchema(schema = @Schema(implementation = Void.class))) }),
+			@Content(mediaType = "application/json", schema = @Schema(implementation = Void.class)) }),
 			@ApiResponse(responseCode = "200", description = "Sem conteudo", content = @Content),
 			@ApiResponse(responseCode = "400", description = "Erro processar a requisição", content = @Content),
 			@ApiResponse(responseCode = "401", description = "Não autorizado", content = @Content),
